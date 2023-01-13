@@ -13,7 +13,14 @@
   height: 100%;
   background-image: url("../images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
-  background-position-x: 250px;
-  background-position-y: 300px;
-  background-size: 500px;
+  background-position-x: 80px;
+  background-position-y: -100px;
+  background-size: 600px;
+}
+.main .hero .navbar {
+  width: 100%;
+  height: 80px;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
