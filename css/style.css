@@ -94,7 +94,7 @@
   background: yellow;
 }
 
-@media screen and (min-width: 481px) and (max-width: 766px) {
+@media screen and (min-width: 500px) and (max-width: 766px) {
   .main {
     background: gray;
   }
