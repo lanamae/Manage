@@ -127,3 +127,10 @@ $btn-color: rgb(252, 77, 46);
 
 
 }
+
+
+@media screen and(min-width:481px) and (max-width: 766px){
+    .main{
+        background: gray;
+    }
+}
