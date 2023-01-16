@@ -9,6 +9,7 @@
 .main {
   width: 100%;
   height: auto;
+  background: violet;
 }
 .main .hero {
   width: 100%;
@@ -94,8 +95,13 @@
   background: yellow;
 }
 
-@media screen and (min-width: 500px) and (max-width: 766px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   .main {
     background: gray;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main {
+    background: orange;
   }
 }/*# sourceMappingURL=style.css.map */
