@@ -14,7 +14,7 @@ $btn-color: rgb(252, 77, 46);
 
 .main{
     width: 100%;
-    height: 100vh;
+    height: auto;
     
 
 
@@ -97,6 +97,31 @@ $btn-color: rgb(252, 77, 46);
             }
         }
         
+    }
+
+    .about{
+        width: 100%;
+        height: 100vh;
+        background: red;
+    }
+
+    .testimonials{
+        width: 100%;
+        height: 100vh;
+        background: blue;
+    }
+
+
+    .get-started{
+        width: 100%;
+        height: 70vh;
+        background: green;
+    }
+
+    .footer{
+        width: 100%;
+        height: 80vh;
+        background: yellow;
     }
 
 
