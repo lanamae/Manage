@@ -10,6 +10,7 @@
   width: 100%;
   height: auto;
   background: violet;
+  overflow-x: hidden;
 }
 .main .hero {
   width: 100%;
@@ -100,7 +101,7 @@
     background: gray;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 766px) {
   .main {
     background: orange;
   }
