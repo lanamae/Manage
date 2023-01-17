@@ -19,6 +19,8 @@
   background-position-x: 100px;
   background-position-y: -150px;
   background-size: 600px;
+  display: grid;
+  place-items: center;
 }
 .main .hero .navbar {
   width: 100%;
