@@ -32,7 +32,7 @@
 }
 .main .hero .content {
   display: grid;
-  grid-template-columns: minmax(436px, 1fr);
+  grid-template-columns: 436px;
   grid-template-rows: 1fr 1fr;
 }
 .main .hero .content .graphics {
