@@ -9,7 +9,6 @@
 .main {
   width: 100%;
   height: auto;
-  background: blueviolet;
 }
 .main .hero {
   width: 100%;
@@ -27,9 +26,12 @@
   display: flex;
   justify-content: space-between;
 }
+.main .hero .navbar .menu {
+  cursor: pointer;
+}
 .main .hero .content {
   display: grid;
-  grid-template-columns: minmax(480px, 1fr);
+  grid-template-columns: minmax(436px, 1fr);
   grid-template-rows: 1fr 1fr;
 }
 .main .hero .content .graphics {
@@ -46,6 +48,7 @@
 .main .hero .content .heading {
   grid-column: 1/2;
   grid-row: 2/3;
+  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,6 +77,7 @@
   letter-spacing: 2px;
   font-weight: 700;
   box-shadow: 0px 3px 10px rgb(252, 77, 46);
+  cursor: pointer;
 }
 .main .about {
   width: 100%;
