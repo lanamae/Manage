@@ -36,14 +36,16 @@
   grid-column: 1/2;
   grid-row: 1/2;
   padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main .hero .content .graphics .graph {
-  width: 300px;
+  width: 350px;
 }
 .main .hero .content .heading {
   grid-column: 1/2;
   grid-row: 2/3;
-  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +55,6 @@
   font-size: 45px;
   color: rgb(18, 0, 100);
   text-align: center;
-  padding: 20px 0px;
 }
 .main .hero .content .heading p {
   font-size: 20px;
