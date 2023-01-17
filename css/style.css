@@ -82,10 +82,10 @@
 .main .about {
   width: 100%;
   height: auto;
-  padding: 50px;
 }
 .main .about .header {
   margin-bottom: 30px;
+  padding: 50px 50px 0px 50px;
   display: grid;
   place-items: center;
   text-align: center;
@@ -101,6 +101,10 @@
   color: rgb(114, 114, 114);
   text-align: center;
   line-height: 30px;
+}
+.main .about .content {
+  height: 300px;
+  padding: 0px 15px;
 }
 .main .testimonials {
   width: 100%;
