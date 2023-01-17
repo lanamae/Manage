@@ -103,8 +103,8 @@
   line-height: 30px;
 }
 .main .about .content {
-  height: 300px;
-  padding: 0px 15px;
+  height: auto;
+  margin: 50px 0px;
 }
 .main .about .content .content-box {
   margin: 20px 0px;
@@ -112,6 +112,8 @@
 .main .about .content .content-box .head {
   background-color: rgb(255, 238, 200);
   display: flex;
+  border-radius: 50px 0px 0px 50px;
+  margin-left: 15px;
 }
 .main .about .content .content-box .head .num {
   background: rgb(252, 77, 46);
@@ -123,7 +125,17 @@
   place-items: center;
 }
 .main .about .content .content-box .head .title {
+  display: flex;
+  place-items: center;
+  margin-left: 10px;
+  font-weight: bold;
   color: rgb(18, 0, 100);
+}
+.main .about .content .content-box .content-text {
+  font-size: 15px;
+  padding: 10px 20px;
+  color: rgb(114, 114, 114);
+  line-height: 30px;
 }
 .main .testimonials {
   width: 100%;
