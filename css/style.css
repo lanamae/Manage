@@ -16,7 +16,7 @@
   background-image: url("../images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
   background-position-x: 100px;
-  background-position-y: -100px;
+  background-position-y: -50px;
   background-size: 400px;
 }
 .main .hero .navbar {
@@ -42,7 +42,7 @@
   align-items: center;
 }
 .main .hero .content .graphics .graph {
-  width: 250px;
+  width: 350px;
 }
 .main .hero .content .heading {
   display: flex;
@@ -52,17 +52,17 @@
   margin-bottom: 80px;
 }
 .main .hero .content .heading h3 {
-  font-size: 45px;
+  font-size: 30px;
   color: rgb(18, 0, 100);
   text-align: center;
-  padding: 20px 50px;
+  padding: 20px 30px;
   padding-bottom: 10px;
 }
 .main .hero .content .heading p {
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(114, 114, 114);
   text-align: center;
-  padding: 20px 20px;
+  padding: 20px 30px;
   line-height: 30px;
 }
 .main .hero .content .heading .cta {
@@ -128,6 +128,7 @@
   display: flex;
   place-items: center;
   margin-left: 10px;
+  font-size: 20px;
   font-weight: bold;
   color: rgb(18, 0, 100);
 }

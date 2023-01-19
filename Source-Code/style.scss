@@ -24,7 +24,7 @@ $btn-color: rgb(252, 77, 46);
         background-image: url('../images/bg-tablet-pattern.svg');
         background-repeat: no-repeat;
         background-position-x: 100px;
-        background-position-y: -100px;
+        background-position-y: -50px;
         background-size: 400px;
         // background: red;
 
@@ -62,7 +62,7 @@ $btn-color: rgb(252, 77, 46);
                justify-content: center;
                align-items: center;
                 .graph{
-                    width: 250px;
+                    width: 350px;
                 }
             }
 
@@ -74,18 +74,18 @@ $btn-color: rgb(252, 77, 46);
                 margin-bottom: 80px;
                
                 h3{
-                    font-size: 45px;
+                    font-size: 30px;
                     color: $primary-text;
                     text-align: center;
-                    padding: 20px 50px;
+                    padding: 20px 30px;
                     padding-bottom: 10px;
                 }
 
                 p{
-                    font-size: 20px;
+                    font-size: 18px;
                     color: $scondary-text;
                     text-align: center;
-                    padding: 20px 20px;
+                    padding: 20px 30px;
                     line-height: 30px;
                 }
 
@@ -165,6 +165,7 @@ $btn-color: rgb(252, 77, 46);
                         display: flex;
                         place-items: center;
                         margin-left: 10px;
+                        font-size: 20px;
                         font-weight: bold;
                         color: $primary-text;
                     }
