@@ -49,12 +49,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 .main .hero .content .heading h3 {
   font-size: 45px;
   color: rgb(18, 0, 100);
   text-align: center;
   padding: 20px 50px;
+  padding-bottom: 10px;
 }
 .main .hero .content .heading p {
   font-size: 20px;
@@ -65,6 +67,7 @@
 }
 .main .hero .content .heading .cta {
   padding: 20px 30px;
+  margin-top: 20px;
   border-style: none;
   border-radius: 30px;
   font-size: 15px;
@@ -73,7 +76,7 @@
   width: 180px;
   letter-spacing: 2px;
   font-weight: 700;
-  box-shadow: 0px 3px 10px rgb(252, 77, 46);
+  box-shadow: 0px 1px 6px rgb(252, 77, 46);
   cursor: pointer;
 }
 .main .about {

@@ -71,13 +71,14 @@ $btn-color: rgb(252, 77, 46);
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-
+                margin-bottom: 80px;
                
                 h3{
                     font-size: 45px;
                     color: $primary-text;
                     text-align: center;
                     padding: 20px 50px;
+                    padding-bottom: 10px;
                 }
 
                 p{
@@ -90,6 +91,7 @@ $btn-color: rgb(252, 77, 46);
 
                 .cta{
                     padding: 20px 30px;
+                    margin-top: 20px;
                     border-style: none;
                     border-radius: 30px;
                     font-size: 15px;
@@ -98,7 +100,7 @@ $btn-color: rgb(252, 77, 46);
                     width: 180px;
                     letter-spacing: 2px;
                     font-weight: 700;
-                    box-shadow: 0px 3px 10px $btn-color;
+                    box-shadow: 0px 1px 6px $btn-color;
                     cursor: pointer;
                 
                 }
