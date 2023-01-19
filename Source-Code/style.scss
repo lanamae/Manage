@@ -23,9 +23,9 @@ $btn-color: rgb(252, 77, 46);
         height: auto;
         background-image: url('../images/bg-tablet-pattern.svg');
         background-repeat: no-repeat;
-        background-position-x: 100px;
-        background-position-y: -150px;
-        background-size: 600px;
+        background-position-x: 50px;
+        background-position-y: -160px;
+        background-size: 500px;
         // background: red;
 
 
@@ -67,15 +67,12 @@ $btn-color: rgb(252, 77, 46);
             }
 
             .heading{
-                // grid-column: 1/2;
-                // grid-row: 2/3;
-                // padding: 20px 50px;
-
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
 
+               
                 h3{
                     font-size: 45px;
                     color: $primary-text;
@@ -148,7 +145,7 @@ $btn-color: rgb(252, 77, 46);
                 margin: 20px 0px;
 
                .head{
-                    background-color: rgb(255, 238, 200);
+                    background-color: rgb(255, 235, 237);
                     display: flex;
                     border-radius: 50px 0px 0px 50px;
                     margin-left: 15px;

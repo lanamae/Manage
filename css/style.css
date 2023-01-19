@@ -15,9 +15,9 @@
   height: auto;
   background-image: url("../images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
-  background-position-x: 100px;
-  background-position-y: -150px;
-  background-size: 600px;
+  background-position-x: 50px;
+  background-position-y: -160px;
+  background-size: 500px;
 }
 .main .hero .navbar {
   width: 100%;
@@ -106,7 +106,7 @@
   margin: 20px 0px;
 }
 .main .about .content .content-box .head {
-  background-color: rgb(255, 238, 200);
+  background-color: rgb(255, 235, 237);
   display: flex;
   border-radius: 50px 0px 0px 50px;
   margin-left: 15px;
