@@ -13,11 +13,11 @@
 .main .hero {
   width: 100%;
   height: auto;
+  background-image: url("../images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
   background-position-x: 100px;
   background-position-y: -150px;
   background-size: 600px;
-  background: red;
 }
 .main .hero .navbar {
   width: 100%;
