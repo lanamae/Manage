@@ -42,10 +42,9 @@
   align-items: center;
 }
 .main .hero .content .graphics .graph {
-  width: 350px;
+  width: 250px;
 }
 .main .hero .content .heading {
-  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
