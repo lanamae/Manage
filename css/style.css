@@ -180,6 +180,9 @@
   top: -50px;
   width: 100px;
 }
+.main .testimonials .testimonial-container .container h4 {
+  margin-bottom: 10px;
+}
 .main .testimonials .testimonial-container .container p {
   text-align: center;
   color: rgb(114, 114, 114);
