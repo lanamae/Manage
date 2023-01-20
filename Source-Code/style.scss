@@ -257,8 +257,9 @@ $btn-color: rgb(252, 77, 46);
             // manualnav
             .nav-manual{
                 position: absolute;
-                width: 400px;
-                margin-top: 350px; 
+                // width: 400px;
+                margin-top: 350px;
+                margin-left: 200px; 
                 display: flex;
                 justify-content: center;
 
@@ -306,8 +307,9 @@ $btn-color: rgb(252, 77, 46);
             // automatic nav
             .nav-auto{
                 position: absolute;
-                width: 400px;
+                // width: 400px;
                 margin-top: 350px; 
+                margin-left: 200px; 
                 display: flex;
                 justify-content: center;
 
