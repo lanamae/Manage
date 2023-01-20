@@ -181,6 +181,9 @@
   height: 500px;
   background: rgb(252, 77, 46);
   position: relative;
+  display: grid;
+  place-items: center;
+  position: absolute;
 }
 .main .get-started .bg {
   width: 300px;
@@ -195,9 +198,7 @@
 .main .get-started h3 {
   font-size: 35px;
   color: rgb(255, 235, 237);
-  display: grid;
-  place-items: center;
-  position: absolute;
+  text-align: center;
 }
 .main .footer {
   width: 100%;

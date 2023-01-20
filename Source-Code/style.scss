@@ -243,6 +243,9 @@ $btn-color: rgb(252, 77, 46);
         height: 500px;
         background: rgb(252, 77, 46);
         position: relative;
+        display: grid;
+        place-items: center;
+        position: absolute;
         
      
         .bg{
@@ -259,9 +262,8 @@ $btn-color: rgb(252, 77, 46);
         h3{
             font-size: 35px;
             color:rgb(255, 235, 237);
-            display: grid;
-            place-items: center;
-            position: absolute;
+            text-align: center;
+            // padding: 0px 10px;
         }
        
     }
