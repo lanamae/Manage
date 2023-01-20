@@ -276,9 +276,9 @@ $btn-color: rgb(252, 77, 46);
                         margin-right: 20px;
                     }
 
-                    &:hover{
-                        background: rgb(252, 77, 46);
-                    }
+                    // &:hover{
+                    //     background: rgb(252, 77, 46);
+                    // }
                 }
 
 
@@ -333,19 +333,19 @@ $btn-color: rgb(252, 77, 46);
 
             
 
-            #radio1:checked ~.nav-auto .auto-btn1{
+            #radio1:checked ~ .nav-auto .auto-btn1{
                 background: rgb(252, 77, 46);
             }
 
-            #radio2:checked ~.nav-auto .auto-btn2{
+            #radio2:checked ~ .nav-auto .auto-btn2{
                 background: rgb(252, 77, 46);
             }
 
-            #radio3:checked ~.nav-auto .auto-btn3{
+            #radio3:checked ~ .nav-auto .auto-btn3{
                 background: rgb(252, 77, 46);
             }
 
-            #radio4:checked ~.nav-auto .auto-btn4{
+            #radio4:checked ~ .nav-auto .auto-btn4{
                 background: rgb(252, 77, 46);
             }
         }

@@ -203,9 +203,6 @@
 .main .testimonials .testimonial-container .nav-manual .manual-btn:not(:last-child) {
   margin-right: 20px;
 }
-.main .testimonials .testimonial-container .nav-manual .manual-btn:hover {
-  background: rgb(252, 77, 46);
-}
 .main .testimonials .testimonial-container #radio1:checked ~ .first {
   margin-left: 0;
 }
