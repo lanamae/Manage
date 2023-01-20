@@ -165,7 +165,7 @@
 .main .testimonials .testimonial-container .container {
   position: relative;
   background: rgba(255, 235, 237, 0.8);
-  padding: 20px 70px;
+  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -189,7 +189,7 @@
 }
 .main .testimonials .testimonial-container .nav-manual {
   position: absolute;
-  width: 500px;
+  width: 400px;
   margin-top: 350px;
   display: flex;
   justify-content: center;
