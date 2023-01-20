@@ -193,7 +193,7 @@
 .main .testimonials .testimonial-container .nav-manual {
   position: absolute;
   margin-top: 350px;
-  margin-left: 150px;
+  margin-left: 170px;
   display: flex;
   justify-content: center;
 }
@@ -222,7 +222,7 @@
 .main .testimonials .testimonial-container .nav-auto {
   position: absolute;
   margin-top: 350px;
-  margin-left: 150px;
+  margin-left: 170px;
   display: flex;
   justify-content: center;
 }
