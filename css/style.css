@@ -264,46 +264,6 @@
   box-shadow: 0px 1px 6px rgb(252, 77, 46);
   cursor: pointer;
 }
-.main .get-started {
-  width: 100%;
-  height: 500px;
-  background: rgb(252, 77, 46);
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.main .get-started .bg {
-  width: 300px;
-  height: 600px;
-  border-radius: 300px;
-  background: rgba(252, 255, 255, 0.1);
-  transform: rotate(45deg);
-  position: absolute;
-  left: -280px;
-  top: 30px;
-}
-.main .get-started h3 {
-  font-size: 45px;
-  color: rgb(255, 235, 237);
-  text-align: center;
-  padding: 0px 50px;
-}
-.main .get-started .cta {
-  padding: 20px 30px;
-  margin-top: 20px;
-  border-style: none;
-  border-radius: 30px;
-  font-size: 15px;
-  background: #fff;
-  color: rgb(252, 77, 46);
-  width: 180px;
-  letter-spacing: 2px;
-  font-weight: 700;
-  box-shadow: 0px 1px 6px rgb(252, 77, 46);
-  cursor: pointer;
-}
 .main .footer {
   width: 100%;
   height: 80vh;
