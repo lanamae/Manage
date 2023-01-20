@@ -213,7 +213,7 @@ $btn-color: rgb(252, 77, 46);
             width: 500%;
             height: 500px;
             display: flex;
-
+            gap: 0px;
 
             input{
                 display: none;
@@ -231,8 +231,9 @@ $btn-color: rgb(252, 77, 46);
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                
                 margin-bottom: 20px;
-                width: 19%;
+                width: 20%;
                 height: 300px;
                 transition: 1s;
 
