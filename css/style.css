@@ -219,6 +219,37 @@
 .main .testimonials .testimonial-container #radio4:checked ~ .first {
   margin-left: -60%;
 }
+.main .testimonials .testimonial-container .nav-auto {
+  position: absolute;
+  width: 400px;
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+}
+.main .testimonials .testimonial-container .nav-auto div {
+  border: 2px solid rgb(252, 77, 46);
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.main .testimonials .testimonial-container .nav-auto div:not(:last-child) {
+  margin-right: 20px;
+}
+.main .testimonials .testimonial-container .nav-auto div:hover {
+  background: rgb(252, 77, 46);
+}
+.main .testimonials .testimonial-container #radio1:checked ~ .nav-auto .auto-btn1 {
+  background: rgb(252, 77, 46);
+}
+.main .testimonials .testimonial-container #radio2:checked ~ .nav-auto .auto-btn2 {
+  background: rgb(252, 77, 46);
+}
+.main .testimonials .testimonial-container #radio3:checked ~ .nav-auto .auto-btn3 {
+  background: rgb(252, 77, 46);
+}
+.main .testimonials .testimonial-container #radio4:checked ~ .nav-auto .auto-btn4 {
+  background: rgb(252, 77, 46);
+}
 .main .testimonials .cta {
   padding: 20px 30px;
   margin-top: 20px;
