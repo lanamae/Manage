@@ -349,11 +349,11 @@
 }
 .main .footer .socmed {
   display: flex;
-  gap: 15px;
+  gap: 25px;
 }
 .main .footer .socmed .icons {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
