@@ -307,19 +307,20 @@
 }
 .main .footer {
   width: 100%;
-  height: 80vh;
+  height: 500px;
   background: rgb(32, 0, 68);
-  padding: 80px 50px;
+  padding: 20px 30px;
+  display: grid;
+  place-items: center;
 }
 .main .footer form {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 .main .footer form input[type=text] {
-  width: 300px;
-  padding: 10px 20px;
+  padding: 10px 50px;
   border-style: none;
   border-radius: 20px;
 }
@@ -330,6 +331,29 @@
   padding: 10px 20px;
   border-style: none;
   border-radius: 20px;
+}
+.main .footer .navlinks {
+  display: flex;
+  gap: 100px;
+}
+.main .footer .navlinks ul {
+  list-style: none;
+}
+.main .footer .navlinks ul li {
+  display: flex;
+  margin-bottom: 15px;
+}
+.main .footer .navlinks ul li a {
+  text-decoration: none;
+  color: rgb(255, 235, 237);
+}
+.main .footer .socmed {
+  display: flex;
+  gap: 15px;
+}
+.main .footer .socmed .icons {
+  width: 50px;
+  height: 50px;
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
