@@ -7,3 +7,21 @@ setInterval(function(){
         counter =1;
     }
 },5000);
+
+
+
+// sidebar
+const menu = document.querySelector('.menu');
+const sidebar = document.querySelector('.navmenu-mobile');
+const close = document.querySelector('.close');
+
+
+
+menu.addEventListener('click', () =>{
+    sidebar.classList.add('display');
+})
+
+
+close.addEventListener('click', ()=>{
+    sidebar.classList.remove('display');
+})
