@@ -377,6 +377,7 @@
   gap: 10px;
 }
 .main .footer form input[type=text] {
+  width: 200px;
   padding: 10px 50px;
   border-style: none;
   border-radius: 20px;
