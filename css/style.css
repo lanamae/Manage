@@ -9,6 +9,7 @@
 .main {
   width: 100%;
   height: auto;
+  position: relative;
 }
 .main .hero {
   width: 100%;
@@ -78,6 +79,45 @@
   font-weight: 700;
   box-shadow: 0px 1px 6px rgb(252, 77, 46);
   cursor: pointer;
+}
+.main .navmenu-mobile {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 100px;
+}
+.main .navmenu-mobile .close {
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.main .navmenu-mobile .navlinks {
+  width: 350px;
+  height: 300px;
+  background: #fff;
+  display: grid;
+  place-items: center;
+}
+.main .navmenu-mobile .navlinks ul {
+  list-style: none;
+  text-align: center;
+}
+.main .navmenu-mobile .navlinks ul li {
+  margin-bottom: 20px;
+}
+.main .navmenu-mobile .navlinks ul li a {
+  text-decoration: none;
+  color: rgb(18, 0, 100);
+  font-size: 15px;
+  font-weight: bold;
 }
 .main .about {
   width: 100%;
