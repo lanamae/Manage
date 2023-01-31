@@ -90,17 +90,21 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  padding-top: 100px;
+  padding: 37px 50px;
 }
-.main .navmenu-mobile .close {
+.main .navmenu-mobile .head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .navmenu-mobile .head .close {
   width: 30px;
   height: 30px;
   margin-left: auto;
-  margin-right: 20px;
   cursor: pointer;
 }
 .main .navmenu-mobile .navlinks {
-  width: 350px;
+  width: 300px;
   height: 300px;
   background: #fff;
   display: grid;
@@ -116,7 +120,7 @@
 .main .navmenu-mobile .navlinks ul li a {
   text-decoration: none;
   color: rgb(18, 0, 100);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
 }
 .main .about {
