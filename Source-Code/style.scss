@@ -303,7 +303,7 @@ $btn-color: rgb(252, 77, 46);
             // background: red;
 
             width: 500%;
-            height: 500px;
+            // height: 500px;
             display: flex;
             gap: 0px;
 
@@ -743,6 +743,71 @@ $btn-color: rgb(252, 77, 46);
                 grid-column: 2/3;
                 grid-row: 1/2;
             }
+
+        }
+
+
+        .testimonials{
+            height: 100vh;
+            
+
+            .testimonial-container{
+                width: 400%;
+                gap: 50px;
+
+                .container{
+                    width: 450px;
+                   
+                    
+                   
+                }
+
+                
+                .nav-auto{
+                    margin-top: 330px;
+                }
+                
+                
+                #radio1:checked ~.first{
+                    margin-left: 0%;
+                    border: red 2px solid;
+                }
+    
+                #radio2:checked ~.first{
+                    margin-left: -20%;
+                   
+                   
+                }
+    
+                #radio3:checked ~.first{
+                    margin-left: -10%;
+                    border: red 2px solid;
+                }
+    
+                #radio4:checked ~.first{
+                    margin-left: -8%;
+                    
+                }
+
+
+                #radio2:checked{
+                    border: red 2px solid;
+                } 
+
+                #radio3:checked{
+                    border: red 2px solid;
+                } 
+                
+                #radio4:checked{
+                    border: red 2px solid;
+                }
+    
+
+
+            }
+
+            
+
 
         }
 
