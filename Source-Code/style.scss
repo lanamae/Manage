@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 *{
     padding: 0;
     margin: 0;
@@ -280,6 +281,7 @@ $btn-color: rgb(252, 77, 46);
     .testimonials{
         width: 100%;
         height: auto;
+        padding: 50px;
         // display: grid;
         // place-items: center;
        
@@ -449,7 +451,8 @@ $btn-color: rgb(252, 77, 46);
         .cta{
             padding: 20px 30px;
             margin-top: 20px;
-            margin-left: 100px;
+            place-self: center;
+            // margin-left: 100px;
             border-style: none;
             border-radius: 30px;
             font-size: 15px;
@@ -472,8 +475,9 @@ $btn-color: rgb(252, 77, 46);
         position: relative;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        place-items: center;
+        // justify-content: center;
+        // align-items: center;
 
         
      
@@ -573,6 +577,13 @@ $btn-color: rgb(252, 77, 46);
                 height: 30px;
             }
         }
+
+        p{
+            color: $scondary-text;
+            font-size: 12px;
+            font-weight: 500;
+
+        }
     }
 
 
@@ -580,237 +591,10 @@ $btn-color: rgb(252, 77, 46);
 }
 
 
-@media screen and(min-width: 481px) and (max-width: 767px){
+@media screen and (min-width: 481px) and (max-width: 767px){
     .main{
         background: gray;
     }
 }
 
-@media screen and(min-width: 768px){
-    .main{
-        
-        .hero{
-            width: 100%;
-            height: 100vh;
-            padding: 30px 100px;
-            background-position-x: 650px;
-            background-position-y: -120px;
-            background-size: 700px;
-            // background-color: red;
-
-            
-            .navbar{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                
-                .logo{
-                    margin-top: 90px;
-                    height: 100px;
-                }
-                .navmenu-desktop{
-                    display: block;
-                    ul{
-                        list-style: none;
-                        display: flex;
-                        gap: 20px;
-
-
-                        li{
-                            display: inline-block;
-
-                            a{
-                                text-decoration: none;
-                                font-size: 15px;
-                                font-weight: 600;
-                                color: $primary-text;
-                            }
-                        }
-                    }
-                }
-
-
-                .cta-desktop{
-                    display: block;
-                    border-style: none;
-                    border-radius: 30px;
-                    font-size: 14px;
-                    color: #fff;
-                    background: $btn-color;
-                    width: 150px;
-                    height: 50px;
-                    padding: 5px 20px;
-                    letter-spacing: 2px;
-                    font-weight: 700;
-                    box-shadow: 0px 1px 6px $btn-color;
-                    cursor: pointer;
-                }
-
-
-                .menu{
-                    display: none;
-                }
-            }
-
-
-            .content{
-                height: auto;
-                padding: 30px 0px;
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: 1fr;
-
-
-                
-                .graphics{
-                    grid-column: 2/3;
-                    grid-row: 1/2;
-                   
-
-                    .graph{
-                        width: 500px;
-                        margin-top: -10px;
-                        
-                    }
-                }
-
-                .heading{
-                    grid-column: 1/2;
-                    grid-row: 1/2;
-                    margin: 20px 90px;
-
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: flex-start;
-                    gap: 40px;
-                    margin-bottom: 80px;
-                    
-                    
-                    h3{
-                        text-align: left;
-                        padding: 0;
-                        font-size: 38px;
-                        
-                    }
-
-                    p{
-                        text-align: left;
-                        padding: 0;
-                    }
-
-                    .cta{
-                        margin-right: auto;
-                    }
-                }
-            }
-        }
-
-
-        .navmenu-mobile{
-            display: none;
-        }
-
-
-        .about{
-            height: 100vh;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr;
-            padding: 50px 100px;
-            // background: #000;
-
-
-            .header{
-                grid-column: 1/2;
-                grid-row: 1/2;
-                display: flex;
-                flex-direction: column;
-                text-align: left;
-                gap: 30px;
-
-                h1{
-                    padding: 0;
-                }
-
-                p{
-                    padding-right: 200px;
-                    text-align: left;
-                }
-            }
-
-
-            .content{
-                grid-column: 2/3;
-                grid-row: 1/2;
-            }
-
-        }
-
-
-        .testimonials{
-            height: 100vh;
-            
-
-            .testimonial-container{
-                width: 400%;
-                gap: 50px;
-
-                .container{
-                    width: 450px;
-                   
-                    
-                   
-                }
-
-                
-                .nav-auto{
-                    margin-top: 330px;
-                }
-                
-                
-                #radio1:checked ~.first{
-                    margin-left: 0%;
-                    border: red 2px solid;
-                }
-    
-                #radio2:checked ~.first{
-                    margin-left: -20%;
-                   
-                   
-                }
-    
-                #radio3:checked ~.first{
-                    margin-left: -10%;
-                    border: red 2px solid;
-                }
-    
-                #radio4:checked ~.first{
-                    margin-left: -8%;
-                    
-                }
-
-
-                #radio2:checked{
-                    border: red 2px solid;
-                } 
-
-                #radio3:checked{
-                    border: red 2px solid;
-                } 
-                
-                #radio4:checked{
-                    border: red 2px solid;
-                }
-    
-
-
-            }
-
-            
-
-
-        }
-
-        
-    }
-}
+@import 'desktopstyle';

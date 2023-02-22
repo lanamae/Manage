@@ -204,6 +204,7 @@
 .main .testimonials {
   width: 100%;
   height: auto;
+  padding: 50px;
   height: 800px;
   overflow: hidden;
 }
@@ -315,7 +316,7 @@
 .main .testimonials .cta {
   padding: 20px 30px;
   margin-top: 20px;
-  margin-left: 100px;
+  place-self: center;
   border-style: none;
   border-radius: 30px;
   font-size: 15px;
@@ -334,8 +335,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
 }
 .main .get-started .bg {
   width: 300px;
@@ -417,6 +417,11 @@
 .main .footer .socmed .icons {
   width: 30px;
   height: 30px;
+}
+.main .footer p {
+  color: rgb(114, 114, 114);
+  font-size: 12px;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -545,6 +550,9 @@
   }
   .main .testimonials {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .main .testimonials .testimonial-container {
     width: 400%;
@@ -552,6 +560,12 @@
   }
   .main .testimonials .testimonial-container .container {
     width: 450px;
+  }
+  .main .testimonials .testimonial-container .nav-auto {
+    display: none;
+  }
+  .main .testimonials .testimonial-container .nav-manual {
+    display: none;
   }
   .main .testimonials .testimonial-container .nav-auto {
     margin-top: 330px;
@@ -578,5 +592,53 @@
   }
   .main .testimonials .testimonial-container #radio4:checked {
     border: red 2px solid;
+  }
+  .main .testimonials .cta {
+    place-self: center;
+  }
+  .main .get-started {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+  }
+  .main .get-started h3 {
+    font-size: 40px;
+    padding: 200px;
+    text-align: left;
+  }
+  .main .get-started .cta {
+    margin: 100px;
+    width: 300px;
+  }
+  .main .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+  }
+  .main .footer img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .main .footer .navlinks {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: -120px;
+  }
+  .main .footer .navlinks a {
+    font-size: 18px;
+  }
+  .main .footer form {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .main .footer p {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .main .footer .socmed {
+    grid-column: 1/2;
+    grid-row: 2/3;
   }
 }/*# sourceMappingURL=style.css.map */
